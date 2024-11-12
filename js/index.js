@@ -1,4 +1,4 @@
-function filterAll () {
+function filterAll() {
 
     // Resetting class of hidden on each card
     let cards = [...document.getElementsByClassName("card")]
@@ -19,7 +19,7 @@ function filterAll () {
     // Removing set background height and resetting to default height: 100%
     let backgroundImage = [...document.getElementsByClassName("main-image")]
     backgroundImage[0].classList.remove('main-image-filtered')
-    
+
 }
 
 function filterSelection(cardClass, buttonId) {
